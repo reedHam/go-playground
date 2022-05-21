@@ -3,6 +3,5 @@ version: '3.9'
 services:
   hello-world:
     build: .
-    image: go-hello-world
     ports:
-      - ${PORT:-3000}
+      - 3000:3000 
